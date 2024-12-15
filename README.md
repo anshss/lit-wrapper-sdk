@@ -1,6 +1,6 @@
 ## Lit Wrapper SDK
 
-Using Lit has never been easier before
+Using Lit Network has never been easier before
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install lit-wrapper-sdk
 
 ### 1) Creating a Key on Solana and Sending Transaction
 
-Using Lit to create a Solana Key and Send a Txn with it, an Ethereum private key works as an auth method for generating signatures with a newly created Solana Key
+Using Lit to create a Solana Key and Send a Txn with it, an Ethereum private key is used for sending requests to the Lit Network. It also works as an auth method for generating signatures with a newly created Solana Key. Make sure to fund your wallet with a [faucet](https://chronicle-yellowstone-faucet.getlit.dev/) on Lit's custom rollup chain.
 
 ```js
 import { LitWrapper } from "lit-wrapper-sdk";
